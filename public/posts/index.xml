@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Monsoon</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Monsoon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Monsoon 2022</copyright>
+    <lastBuildDate>Sat, 29 Jan 2022 18:08:55 -0700</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Commands</title>
+      <link>/posts/git-commands/</link>
+      <pubDate>Sat, 29 Jan 2022 18:08:55 -0700</pubDate>
+      
+      <guid>/posts/git-commands/</guid>
+      <description>Git Commands: init - begins versioning and adds hidden git files in the path it&amp;rsquo;s run
+status - gives status of git files
+add - stages files to queue add . - stages ALL files within the directory recursively commit - commits the files to the git changelog
+push - pushes the change to an upstream repo (Github)
+rm -rf .git - deletes git guts for a directory
+VIM Commands: i - edit text</description>
+      <content>&lt;h2 id=&#34;git-commands&#34;&gt;Git Commands:&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;init&lt;/code&gt; - begins versioning and adds hidden git files in the path it&amp;rsquo;s run&lt;br&gt;
+&lt;code&gt;status&lt;/code&gt; - gives status of git files&lt;br&gt;
+&lt;code&gt;add&lt;/code&gt; - stages files to queue
+&lt;code&gt;add .&lt;/code&gt; - stages ALL files within the directory recursively
+&lt;code&gt;commit&lt;/code&gt; - commits the files to the git changelog&lt;br&gt;
+&lt;code&gt;push&lt;/code&gt; - pushes the change to an upstream repo (Github)&lt;br&gt;
+&lt;code&gt;rm -rf .git&lt;/code&gt; - deletes git guts for a directory&lt;/p&gt;
+&lt;h2 id=&#34;vim-commands&#34;&gt;VIM Commands:&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;i&lt;/code&gt; - edit text&lt;br&gt;
+&lt;code&gt;:wq&lt;/code&gt; - write and quit&lt;br&gt;
+&lt;code&gt;ESC&lt;/code&gt; - stop editing text&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Image Magick Commands</title>
+      <link>/posts/image-magick-commands/</link>
+      <pubDate>Fri, 28 Jan 2022 16:32:56 -0700</pubDate>
+      
+      <guid>/posts/image-magick-commands/</guid>
+      <description>ImageMagick for converting HEIC and stripping Exif data on Mac  Create a directory with HEIC files Batch rename all files (select all photos &amp;gt; right click &amp;gt; rename &amp;gt; format &amp;gt; custom format: photo &amp;gt; Start numbers at: 1) Launch Terminal &amp;gt; CD to directory mogrify -format jpg *.HEIC (converts HEIC to JPG) rm *.HEIC(removes HEIC files) Mogrify -strip *jpg (strips EXIF data)  </description>
+      <content>&lt;h2 id=&#34;imagemagick-for-converting-heic-and-stripping-exif-data-on-mac&#34;&gt;ImageMagick for converting HEIC and stripping Exif data on Mac&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a directory with HEIC files&lt;/li&gt;
+&lt;li&gt;Batch rename all files (select all photos &amp;gt; right click &amp;gt; rename &amp;gt; format &amp;gt; custom format: photo &amp;gt; Start numbers at: 1)&lt;/li&gt;
+&lt;li&gt;Launch Terminal &amp;gt;  &lt;code&gt;CD&lt;/code&gt; to directory&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mogrify -format jpg *.HEIC&lt;/code&gt; (converts HEIC to JPG)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rm *.HEIC&lt;/code&gt;(removes HEIC files)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Mogrify -strip *jpg&lt;/code&gt; (strips EXIF data)&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>To Do</title>
+      <link>/posts/to-do/</link>
+      <pubDate>Mon, 19 Apr 2021 23:26:25 -0700</pubDate>
+      
+      <guid>/posts/to-do/</guid>
+      <description> move written Monsoon content from WP to Hugo Add links to text in Hugo KB Figure out how to host images Move files, images, media etc over to Hugo Commit 1.0 to Git Deploy netlify server  </description>
+      <content>&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; move written Monsoon content from WP to Hugo&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Add links to text in Hugo KB&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Figure out how to host images&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Move files, images, media etc over to Hugo&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Commit 1.0 to Git&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Deploy netlify server&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Hugo Commands</title>
+      <link>/posts/hugo-commands/</link>
+      <pubDate>Mon, 19 Apr 2021 23:12:58 -0700</pubDate>
+      
+      <guid>/posts/hugo-commands/</guid>
+      <description>Hermit theme documentation
+Most commonly used Hugo commands: New post: hugo new posts/post-title.mdBuild &amp;amp; launch server: hugo serveNew page: hugo new page-title.md</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io/hermit/&#34;&gt;Hermit theme documentation&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;most-commonly-used-hugo-commands&#34;&gt;Most commonly used Hugo commands:&lt;/h2&gt;
+&lt;h4 id=&#34;new-post&#34;&gt;New post:&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new posts/post-title.md
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;build--launch-server&#34;&gt;Build &amp;amp; launch server:&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo serve
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;new-page&#34;&gt;New page:&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new page-title.md
+&lt;/code&gt;&lt;/pre&gt;</content>
+    </item>
+    
+    <item>
+      <title>Transmitter Receiver Tuning</title>
+      <link>/posts/transmitter-receiver-tuning/</link>
+      <pubDate>Mon, 19 Apr 2021 23:03:04 -0700</pubDate>
+      
+      <guid>/posts/transmitter-receiver-tuning/</guid>
+      <description>The Prayer Rx and El Nieto Tx are due for some TLC. Below is the TO-DO list:
+Receiver Version 5 (RX Mark IV)
+ Additional bypass capacitors of different values Higher value resistor to dim the LED brightness  Transmitter Version 8.1 (double check version)
+ Additional bypass capacitors of different values Remove charging/protection circuitry Remove accompanying charge/protect passives Remove Micro USB Add charging circuit pads for off the shelf charging/protection circuit  Bypass Capacitor Notes:</description>
+      <content>&lt;p&gt;The Prayer Rx and El Nieto Tx are due for some TLC. Below is the TO-DO list:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Receiver Version 5 (RX Mark IV)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Additional bypass capacitors of different values&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Higher value resistor to dim the LED brightness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Transmitter Version 8.1 (double check version)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Additional bypass capacitors of different values&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Remove charging/protection circuitry&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Remove accompanying charge/protect passives&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Remove Micro USB&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Add charging circuit pads for off the shelf charging/protection circuit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Bypass Capacitor Notes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Place the bypass capacitors as close as possible to the chip that needs the clean signal in order to limit the inductance and impedance caused by parasitic properties.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Flash Vesc Based Bootloader</title>
+      <link>/posts/flash-vesc-based-bootloader/</link>
+      <pubDate>Mon, 19 Apr 2021 22:37:14 -0700</pubDate>
+      
+      <guid>/posts/flash-vesc-based-bootloader/</guid>
+      <description>Flash VESC Bootloader Step 1. Download STM32 ST-LINK Utilityand install it along with the drivers that it prompts during install.
+Step 2. Launch ST-LINK Utility and connect the ST-LINK V2 programmer to PC by itself (no VESC connected). From the menu, click ST-LINK &amp;gt; Firmware update. Follow instructions to update programmer firmware.
+Step 3. Wire up the ST-Link V2 (JST PH 2.0MM connector is needed for VESC) and connect it to the VESC.</description>
+      <content>&lt;h1 id=&#34;flash-vesc-bootloader&#34;&gt;Flash VESC Bootloader&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Step 1.&lt;/strong&gt; Download &lt;code&gt;STM32 ST-LINK Utility&lt;/code&gt;and install it along with the drivers that it prompts during install.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2.&lt;/strong&gt; Launch ST-LINK Utility and connect the ST-LINK V2 programmer to PC by itself (no VESC connected). From the menu, click ST-LINK &amp;gt; Firmware update. Follow instructions to update programmer firmware.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 3.&lt;/strong&gt; Wire up the ST-Link V2 (JST PH 2.0MM connector is needed for VESC) and connect it to the VESC.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    ST-LINK  |   VESC
+  ======================
+  |  RST    |   RST    |
+  |  SWCLK  |   CLK    |
+  |  SWDIO  |   DIO    |
+  |  GND    |   -/GND  |
+  |  3.3V   |   3.3V   |
+  ======================
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Step 4.&lt;/strong&gt; No external power is needed to flash the bootloader, but note that some recommend using a battery pack connected to the ESC’s XT60 connector in lieu of the ST-LINK’s 3.3V power rail. In the past, we’ve flashed the bootloader on a VESC by using the ST-LINK 3.3V power rail and no external battery pack with no issues. You should choose one or the other, but not both.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 5.&lt;/strong&gt; In the ST-LINK Utility, click Target &amp;gt; Connect. A large list of addresses should show up indicating that you’ve connected properly.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 6.&lt;/strong&gt; Download and extract the VESC 4.12 Bootloader. In ST-LINK Utility File &amp;gt; Open File &amp;gt; Navigate to BLDC_4_Bootloader_git_f507a7e4affa.hex and click Open. Click Target &amp;gt; Program &amp;amp; Verify &amp;gt; Start. This may take some time, but once it’s done verifying, you’re all done! The Bootloader flashed successfully!&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Minimal Arduino</title>
+      <link>/posts/minimal-arduino/</link>
+      <pubDate>Mon, 19 Apr 2021 22:11:24 -0700</pubDate>
+      
+      <guid>/posts/minimal-arduino/</guid>
+      <description>Programming ATMega328P-PU 8MHz Things you’ll need for the Transmitter:  Arduino Uno ATmega328-PU RF24 Library (Via Library Manager in Arduino) Adafruit GFX Library (Via Library Manager in Arduino) Adafruit SSD1306 Library (Via Library Manager in Arduino) LowPower Library (GitHub | Blog | Our Link) 8 MHz Arduino Board (Arduino Website | Our Link)  Burning 8 MHz Bootloader &amp;amp; Programming Sketch:  Add the libraries to the Arduino folder (User/Documents/Arduino/libraries) Add the 8 MHz board to the Arduino folder (User/Documents/Arduino/hardware) Program the ArduinoISP sketch to the Arduino Uno in the IDE Throw the ATmega328-PU onto a breadboard and wire it according to this image In the IDE, click Tools &amp;gt; Board &amp;gt; ATmega 328 on a breadboard (8 MHz internal clock) Click Tools &amp;gt; Programmer &amp;gt; Arduino as ISP Click Tools &amp;gt; Burn Bootloader Open sketch in the IDE and click Sketch &amp;gt; Upload Using Programmer  Troubleshooting:  If using a MAC, put a 10uF capacitor between reset and ground pin on the Uno during Bootloader Burn and Programming Last tested and working on Arduino version 1.</description>
+      <content>&lt;h1 id=&#34;programming-atmega328p-pu-8mhz&#34;&gt;Programming ATMega328P-PU 8MHz&lt;/h1&gt;
+&lt;h2 id=&#34;things-youll-need-for-the-transmitter&#34;&gt;Things you’ll need for the Transmitter:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Arduino Uno&lt;/li&gt;
+&lt;li&gt;ATmega328-PU&lt;/li&gt;
+&lt;li&gt;RF24 Library (Via Library Manager in Arduino)&lt;/li&gt;
+&lt;li&gt;Adafruit GFX Library (Via Library Manager in Arduino)&lt;/li&gt;
+&lt;li&gt;Adafruit SSD1306 Library (Via Library Manager in Arduino)&lt;/li&gt;
+&lt;li&gt;LowPower Library (GitHub | Blog | Our Link)&lt;/li&gt;
+&lt;li&gt;8 MHz Arduino Board (Arduino Website | Our Link)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;burning-8-mhz-bootloader--programming-sketch&#34;&gt;Burning 8 MHz Bootloader &amp;amp; Programming Sketch:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the libraries to the Arduino folder (User/Documents/Arduino/libraries)&lt;/li&gt;
+&lt;li&gt;Add the 8 MHz board to the Arduino folder (User/Documents/Arduino/hardware)&lt;/li&gt;
+&lt;li&gt;Program the ArduinoISP sketch to the Arduino Uno in the IDE&lt;/li&gt;
+&lt;li&gt;Throw the ATmega328-PU onto a breadboard and wire it according to this image&lt;/li&gt;
+&lt;li&gt;In the IDE, click Tools &amp;gt; Board &amp;gt; ATmega 328 on a breadboard (8 MHz internal clock)&lt;/li&gt;
+&lt;li&gt;Click Tools &amp;gt; Programmer &amp;gt; Arduino as ISP&lt;/li&gt;
+&lt;li&gt;Click Tools &amp;gt; Burn Bootloader&lt;/li&gt;
+&lt;li&gt;Open sketch in the IDE and click Sketch &amp;gt; Upload Using Programmer&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;troubleshooting&#34;&gt;Troubleshooting:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;If using a MAC, put a 10uF capacitor between reset and ground pin on the Uno during Bootloader Burn and Programming&lt;/li&gt;
+&lt;li&gt;Last tested and working on Arduino version 1.8.5 on MAC &amp;amp; Windows&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

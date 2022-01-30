@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NRF24L01 on Monsoon</title>
+    <link>/tags/nrf24l01/</link>
+    <description>Recent content in NRF24L01 on Monsoon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Monsoon 2022</copyright>
+    <lastBuildDate>Mon, 19 Apr 2021 23:03:04 -0700</lastBuildDate><atom:link href="/tags/nrf24l01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transmitter Receiver Tuning</title>
+      <link>/posts/transmitter-receiver-tuning/</link>
+      <pubDate>Mon, 19 Apr 2021 23:03:04 -0700</pubDate>
+      
+      <guid>/posts/transmitter-receiver-tuning/</guid>
+      <description>The Prayer Rx and El Nieto Tx are due for some TLC. Below is the TO-DO list:
+Receiver Version 5 (RX Mark IV)
+ Additional bypass capacitors of different values Higher value resistor to dim the LED brightness  Transmitter Version 8.1 (double check version)
+ Additional bypass capacitors of different values Remove charging/protection circuitry Remove accompanying charge/protect passives Remove Micro USB Add charging circuit pads for off the shelf charging/protection circuit  Bypass Capacitor Notes:</description>
+      <content>&lt;p&gt;The Prayer Rx and El Nieto Tx are due for some TLC. Below is the TO-DO list:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Receiver Version 5 (RX Mark IV)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Additional bypass capacitors of different values&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Higher value resistor to dim the LED brightness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Transmitter Version 8.1 (double check version)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Additional bypass capacitors of different values&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Remove charging/protection circuitry&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Remove accompanying charge/protect passives&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Remove Micro USB&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Add charging circuit pads for off the shelf charging/protection circuit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Bypass Capacitor Notes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Place the bypass capacitors as close as possible to the chip that needs the clean signal in order to limit the inductance and impedance caused by parasitic properties.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

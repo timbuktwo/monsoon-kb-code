@@ -15,11 +15,14 @@ tags:
 hugo new posts/post-title.md
 ```
 
-#### Build & launch server:  
+#### Launch local web server:  
 ```
 hugo serve
 ```
-
+#### Generate static website files & include content marked as draft:
+```
+hugo -D
+``` 
 #### New page:
 ```
 hugo new page-title.md
