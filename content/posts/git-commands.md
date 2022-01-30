@@ -13,6 +13,7 @@ draft: false
 `commit` - commits the files to the git changelog  
 `push` - pushes the change to an upstream repo (Github)  
 `rm -rf .git` - deletes git guts for a directory
+`git rm -r --cached myFolder` - removes directory from git
 
 ## VIM Commands:
 `i` - edit text  
