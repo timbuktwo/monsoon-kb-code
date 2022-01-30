@@ -4,13 +4,8 @@ date = "2022-01-30T03:51:14-07:00"
 author = ""
 authorTwitter = "" #do not include @
 cover = ""
-<<<<<<< HEAD
 tags = ["git", "terminalCommands"]
 keywords = ["", ""]
-=======
-tags = ["", ""]
-keywords = ["git", "terminalCommands"]
->>>>>>> fc0e1aad91367c4dd8489af1084bdf8859527846
 description = ""
 showFullContent = false
 readingTime = false
