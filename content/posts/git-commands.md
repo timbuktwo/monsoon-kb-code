@@ -21,6 +21,7 @@ readingTime = false
 `push` - pushes the change to an upstream repo (Github)
 `rm -rf .git` - deletes git versioning and versioning guts for a directory
 `rm -r --cached myfolder` - removes directory from git but NOT local
+`$ git config --global core.autocrlf true` - converts LF endings into CRLF when you check out code.
 
 ## vim commands
 
