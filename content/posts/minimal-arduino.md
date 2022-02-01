@@ -1,11 +1,15 @@
----
-title: "Minimal Arduino"
-date: 2021-04-19T22:11:24-07:00
-draft: false
-toc: false
-images:
-tags:
----
++++
+title = "Minimal Arduino"
+date = "2021-04-19T22:11:24-07:00"
+author = ""
+authorTwitter = "" #do not include @
+cover = ""
+tags = ["arduino", "transmitter"]
+keywords = ["", ""]
+description = ""
+showFullContent = false
+readingTime = false
++++
 
 # Programming ATMega328P-PU 8MHz
 

@@ -1,11 +1,15 @@
----
-title: "Image Magick Commands"
-date: 2022-01-28T16:32:56-07:00
-draft: false
-toc: false
-images:
-tags:
----
++++
+title = "Image Magick Commands"
+date = "2022-01-28T16:32:56-07:00"
+author = ""
+authorTwitter = "" #do not include @
+cover = ""
+tags = ["imageMagick", "cli"]
+keywords = ["", ""]
+description = ""
+showFullContent = false
+readingTime = false
++++
 
 
 ## ImageMagick for converting HEIC and stripping Exif data on Mac

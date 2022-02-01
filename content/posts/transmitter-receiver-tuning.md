@@ -1,13 +1,16 @@
----
-title: "Transmitter Receiver Tuning"
-date: 2021-04-19T23:03:04-07:00
-draft: false
-toc: false
-images:
-tags: 
-  - arduino
-  - NRF24L01
----
++++
+title = "Transmitter Receiver Tuning"
+date = "2021-04-19T23:03:04-07:00"
+author = ""
+authorTwitter = "" #do not include @
+cover = ""
+tags = ["arduino", "nrf24l01"]
+keywords = ["", ""]
+description = ""
+showFullContent = false
+readingTime = false
++++
+
 The Prayer Rx and El Nieto Tx are due for some TLC. Below is the TO-DO list:
 
 **Receiver Version 5 (RX Mark IV)**

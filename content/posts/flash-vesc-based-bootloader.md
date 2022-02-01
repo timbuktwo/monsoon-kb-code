@@ -1,11 +1,15 @@
----
-title: "Flash Vesc Based Bootloader"
-date: 2021-04-19T22:37:14-07:00
-draft: false
-toc: false
-images:
-tags: 
----
++++
+title = "Flash Vesc Based Bootloader"
+date = "2021-04-19T22:37:14-07:00"
+author = ""
+authorTwitter = "" #do not include @
+cover = ""
+tags = ["vesc", "stm32"]
+keywords = ["", ""]
+description = ""
+showFullContent = false
+readingTime = false
++++
 
 # Flash VESC Bootloader
 

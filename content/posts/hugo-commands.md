@@ -1,12 +1,15 @@
----
-title: "Hugo Commands"
-date: 2021-04-19T23:12:58-07:00
-draft: false
-toc: false
-images:
-tags:
----
-[Hermit theme documentation](https://themes.gohugo.io/hermit/)
++++
+title = "Hugo Commands"
+date = "2021-04-19T23:12:58-07:00"
+author = ""
+authorTwitter = "" #do not include @
+cover = ""
+tags = ["hugo", "cli"]
+keywords = ["", ""]
+description = ""
+showFullContent = false
+readingTime = false
++++
 
 ## Most commonly used Hugo commands:
 
