@@ -11,6 +11,6 @@ showFullContent = false
 readingTime = false
 +++
 
-`:wq` - write and quit
-`i` - edit text
-`ESC` - stop editing text
+`:wq` write and quit\
+`i` edit\
+`esc` stop editing
