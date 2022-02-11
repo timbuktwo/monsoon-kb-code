@@ -11,10 +11,10 @@ showFullContent = false
 readingTime = false
 +++
 
-#Wiring diagram
+# Wiring diagram
 
 ```
-    HM-10  |   VESC
+     HM-10  |   VESC
   ======================
   |   VCC   |    5V    |
   |   GND   |   -/GND  |
