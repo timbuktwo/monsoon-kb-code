@@ -11,9 +11,10 @@ showFullContent = false
 readingTime = false
 +++
 
-# Install Instructions:
+# Wiring Instructions:  
 
-<mark>CAUTION: You will be dealing with 120V AC mains voltage. Proceed cautiously.</mark>
+==CAUTION: You will be dealing with 120V AC mains voltage. Proceed cautiously.==  
+
 Note: The locker power supply unit (PSU), backup battery (UPS), and circuit breaker are all located behind the tablet locker door.
 
 1. Open the door, disconnect the locker from power, and turn off the locker breaker 
@@ -21,15 +22,21 @@ Note: The locker power supply unit (PSU), backup battery (UPS), and circuit brea
 3. Unscrew 2 silver screws securing the locker power supply housing to the locker
 4. Carefully flip over the locker power supply housing to expose the power supply unit
 5. On the power supply unit, flip the plastic terminals cover to reveal the terminal screws
-6. **Carefully** connect the 2 **RED** Uhppote wires to the locker power supply as shown in the diagram
-6. Connect the UHPPOTE to the electric strike as shown in the diagram
-7. Connect the UHPPOTE to port **S20** on the locker controller board as shown in the diagram
-8. Get #Mobile channel to “update the locker context and installer mapping files, along with the lock record linked to the laundry room space.” 
+6. ==Carefully== connect the 2 ==RED== Uhppote wires to the locker power supply as shown in the diagram
+7. Connect the UHPPOTE to the electric strike as shown in the diagram
+8. Connect the UHPPOTE to port ==S20== on the locker controller board as shown in the diagram
+
+# Configuration (WIP):  
+
+8. In OTA Slack, message #Mobile channel to “update the locker context and installer mapping files, along with the lock record linked to the laundry room space.” 
 9. On tablet, tap service provider > cancel >tap “are you sure” rapidly > 5411 > installer flow > Production > enter complex installer code > log in with credentials
 10. Tablet will pull down locker controller mapping
 11. To test, power everything up and try to control locker 19 
     1. On tablet, tap service provider > cancel >tap “are you sure” rapidly > 5411 > view locker statuses > Open locker 19 (you should hear the UHPPOTE relay click if everything is wired up correctly. 
     2. Tune UHPPOTE potentiometer for 5 Second delay
+
+# Wiring Diagrams:  
+
 The Wiring diagram below illustrates how the wires from port `S20` on the locker controller circuit board and the 12V electric door-strike wires terminate to the UHPPOTE module.
 
 ```
