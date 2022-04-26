@@ -11,14 +11,23 @@ showFullContent = false
 readingTime = false
 +++
 
-## TC66C Notes
+## TC66C Important Links
 [**Product page, documentation, manual**](https://www.aliexpress.com/item/32968303350.html?spm=a2g0o.store_pc_groupList.8148356.7.594165cfWlLoPl)
 
 [**Deep Dive YouTube Video by TheHWcave**](https://www.youtube.com/watch?v=rOlhibDUJgs)
 
 ### Current Draw:
-* Measuring current draw via the male USB-C plug subtracts the current drawn by the TC66C and only displays the current drawn by the client device.
-* Measuring current draw via the female USB-C port will include the current draw from the client device + the current draw from the TC66C combined. To measure current draw from this port correctly, the TC66C must be powered via Micro-USB. Ensure to set the PD and PWR switches to off. This is due to where the shunt resistor is located in the circuit. On the male end of the TC66C, the VBUS line is routed directly to a 3.3V regulator > MCU before it gets to the shunt, so no current is accounted for. On the female end, the VBUS is routed directly to the shunt resistor > 3.3V regulator > MCU, which measures and accounts for the current draw of the TC66C. The TC66C draws ~25mA. The shunt resistor value is very low and similar to the resistance of a standard USB cable. 
+
+| **USB-C Male**              | **USB-C Female**            |
+|-----------------------------|-----------------------------|
+| Excludes TC66C current draw | Includes TC66C current draw |
+* Connecting the power source to the USB-C male port will `exclude` any current drawn by the TC66C.
+* Connecting the power source to the USB-C female port will `include` any current drawn by the TC66C. This is due to the position of the shunt resistor used to measure current in the circuit.
+
+### Current path:
+| **USB-C Male**                | **USB-C Female**              |
+|-------------------------------|-------------------------------|
+| input > 3.3vReg > MCU > shunt | input > shunt > 3.3vReg > MCU |
 
 ### Recording Data: 
 The TC66C can record and store 1,440 data points for **Voltage + Current**.  
